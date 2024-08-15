@@ -1,0 +1,455 @@
+body{
+  width: 1440px;
+  height: 1540px;
+  top: -513px;
+  left: 800px;
+  background-color: rgba(253, 253, 253, 1);
+}
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%; 
+    height: 1024px; 
+    top: -513px; 
+    left: 2320px; 
+  }
+}
+@media only screen and (max-width: 414px) {
+  body {
+    width: 100%; 
+    height: 896px; 
+    top: -513px; 
+    left: 3195px; 
+  }
+}
+.nav{
+  width: 1179.97px;
+  height: 37px;
+  margin-top: 32px;
+  margin-left: 125px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 646.97px) {
+  .nav {
+    width: 100%; 
+    margin-left: 61px; 
+  }
+}
+@media only screen and (max-width: 305.48px) {
+  .nav {
+    width: 100%; 
+    margin-left: 35px;  
+  }
+}
+.news{
+  border: 1px solid;
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
+  margin: 0;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(18, 18, 33, 1);
+  width: 56px;
+  height: 18px; 
+}
+.portal{
+  padding-left: 10px;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  margin: 0
+}
+.input-search{
+width: 150px;
+margin-top: -10px;
+font-size: 20px;
+display: inline-block;
+border: none;
+outline: none;
+}
+@media only screen and (max-width: 646px) {
+  .input-search {
+    width: 150px; 
+  }
+}
+@media only screen and (max-width: 305px) {
+  .input-search {
+    width: 110px; 
+    font-size: 18px;
+  }
+}
+.burger-icon{
+  display: inline-block;
+  margin: 0;
+  width: 42.97px;
+  height: 35.72px;
+}
+.search-icon{
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  width: 79.97px;
+  height: 35.72px;
+}
+.div-hot{
+  width: 1170px;
+  height: 480px;
+  margin-top: 67px;
+  margin-left: 135px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 646.97px) {
+  .div-hot {
+    width: 100%; 
+    height: 355px;
+    margin-left: 60px; 
+    margin-top: 59px;
+  }
+}
+@media only screen and (max-width: 305.48px) {
+  .div-hot {
+    width: 100%; 
+    margin-left: 35px;  
+    height: 258px;
+    margin-top: 51px;
+  }
+}
+.h1-hot{
+  width: 430px;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  height: 57px;
+  display: flex;
+  color: rgba(0, 0, 0, 1);
+}
+@media only screen and (max-width: 178.23px) {
+  .h1-hot {
+    width: 100%; 
+    margin-left: 60px; 
+    margin-top: 59px;
+    font-size: 36px;
+    height: 42.19px;
+  }
+}
+@media only screen and (max-width: 178.23px) {
+  .h1-hot {
+    width: 100%; 
+    margin-left: 35px;  
+    height: 42.19px;
+    margin-top: 51px;
+    font-size: 36px;
+  }
+}
+.yuzmek{
+  width: 870px;
+  margin-top: 24px;
+  display: inline-block;
+  float: left;
+  height: 400px;
+  border-radius: 8px;
+  color: rgba(196, 196, 196, 1);
+}
+@media only screen and (max-width: 647px) {
+  .yuzmek {
+    width: 100%; 
+    height: 289px;
+    margin-top: 12px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .yuzmek {
+    width: 100%;  
+    height: 200px;
+    margin-top: 4px;
+  }
+}
+.span-hot{
+  width: 270px;
+  position: absolute;
+  height: 344px;
+  margin-top: 24px;
+  margin-left: 22px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 32.4px;
+}
+@media only screen and (max-width: 647px) {
+  .span-hot {
+   display: none;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .span-hot {
+    display: none;
+  }
+}
+.span2-hot{
+  width: 443px;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 32px;
+  font-weight: 700;
+  height: 144px;
+  font-size: 24px;
+  line-height: 48px;
+  color:rgba(248, 248, 248, 1);
+}
+@media only screen and (max-width: 646px) {
+  .span2-hot {
+    width: 576.94px; 
+    height: 72px;
+    font-size: 18px;
+    margin-top: -120px;
+    line-height: 36px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .span2-hot {
+    width: 281px;  
+    height: 42px;
+    font-size: 12px;
+    margin-top: -90px;
+    line-height: 21.33px;
+  }
+}
+.hours-hot{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 32px;
+  width: 67px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(248, 248, 248, 1)
+}
+@media only screen and (max-width: 72.12px) {
+  .hours-hot {
+    width: 100%; 
+  }
+}
+@media only screen and (max-width: 47px) {
+  .hours-hot {
+    width: 100%;  
+    height: 12px;
+    font-size: 8px;
+    line-height: 12px;
+  }
+}
+.cnn-hot{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 112px;
+  width: 81px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(248, 248, 248, 1)
+}
+@media only screen and (max-width: 83.45px) {
+  .cnn-hot {
+    width: 100%; 
+  }
+}
+@media only screen and (max-width: 54px) {
+  .cnn-hot {
+    width: 100%;  
+    height: 12px;
+    font-size: 8px;
+    line-height: 12px;
+  }
+}
+.div-news{
+  width: 1170px;
+  display: inline-block;
+  height: 680px;
+  border-radius: 8px;
+  margin-top: 60px;
+  margin-left: 135px;
+}
+@media only screen and (max-width: 646px) {
+  .div-news {
+    width: 100%; 
+    height: 552px;
+    margin-top: 40px;
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width: 306px) {
+  .div-news {
+    width: 100%;  
+    height: 460px;
+    margin-left: 32px;
+  }
+}
+.latest-news{
+ width: 201px;
+ height: 40px;
+ margin: 0;
+ font-weight: 700;
+ font-size: 36px;
+ line-height: 42.19px;
+}
+@media only screen and (max-width: 647px) {
+  .latest-news {
+    width: 134px; 
+    height: 28px;
+    font-size: 24px;
+    line-height: 28.13px;
+  }
+}
+@media only screen and (max-width: 306px) {
+  .latest-news {
+    width: 134px;  
+    height: 28px;
+    font-size: 24px;
+    line-height: 28.13px;
+  }
+}
+.group{
+width: 270px;
+height: 294px;
+border-radius: 8px;
+margin-top: 20px;
+margin-right: 10px;
+float: left;
+}
+@media only screen and (max-width: 646px) {
+  .group {
+    width: 200px; 
+    height: 230px;
+    margin-right: 5px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .group {
+    width: 143px;  
+    height: 192px;
+margin-right: 9.5px;
+  }
+}
+.img{
+  width: 270px;
+  height: 176px;
+  border-radius: 8px;
+}
+@media only screen and (max-width: 647px) {
+  .img {
+    width: 200px; 
+    height: 128px;
+    margin-right: 5px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .img {
+    width: 143px;  
+    height: 96px;
+  }
+}
+.span-news{
+  width: 270px;
+  height: 64px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 31.99px;
+}
+@media only screen and (max-width: 647px) {
+  .span-news {
+    width: 190px; 
+    height: 48px;
+    font-size: 10px;
+    line-height: 23.99px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .span-news {
+    width: 143px;  
+    height: 63px;
+    font-size: 8px;
+    line-height: 21.33px;
+  }
+}
+.hours-news{
+  position: absolute;
+  margin-top: 10px;
+  width: 74px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+@media only screen and (max-width: 646px) {
+  .hours-news {
+    width: 54px;  
+    height: 10px;
+    font-size: 8px;
+    line-height: 9.38px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .hours-news {
+    width: 46px;  
+    height: 10px;
+    font-size: 8px;
+    line-height: 9.38px;
+  }
+}
+.cnn-news{
+  position: absolute;
+  margin-top: 10px;
+  width: 95px;
+  margin-left: 80px;
+  height: 14px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+@media only screen and (max-width: 647px) {
+  .cnn-news {
+    width: 75px;  
+    height: 10px;
+    margin-left: 50px;
+    font-size: 8px;
+    line-height: 9.38px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .cnn-news {
+    width: 64px;  
+    height: 10px;
+    font-size: 8px;
+    line-height: 9.38px;
+    margin-left: 50px;
+  }
+}
+.footer{
+  width: 1170px;
+  height: 33px;
+  margin-left: 135px;
+  margin-top: 80px;
+  padding-top: 40px;
+  text-align: center;
+}
+@media only screen and (max-width: 646px) {
+  .footer {
+    width: 100%; 
+   margin-left: 50px;
+    margin-top: 450px;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .footer {
+    width: 100%;  
+    margin-left: 0;
+    margin-top: 390px;
+    font-size: 10px;
+    
+  }
+}

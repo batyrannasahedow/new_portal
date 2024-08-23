@@ -1,27 +1,31 @@
-import dayjs from "dayjs";
-import { Root } from "../types/Types";
+import dayjs from 'dayjs';
+import { Root } from '../types/Types';
 
 type Props = {
-  headlines : Root | null
-}
+  headlines: Root | null;
+};
 
 function HotTopics({ headlines }: Props): JSX.Element {
   const articleIndex = 2;
   const article = headlines?.articles[articleIndex];
 
+  if (!article) {
+    return <p>No hot topics available</p>;
+  }
+
   return (
-    <div className="div-hot">
-      <h1 className="h1-hot">Hot Topics</h1>
+    <div className='div-hot'>
+      <h1 className='h1-hot'>Hot Topics</h1>
       <div>
-        <img className="yuzmek" src={article?.urlToImage} />
-        <span className="span-hot">{article?.description}</span>
+        <img className='yuzmek' src={article?.urlToImage} />
+        <span className='span-hot'>{article?.description}</span>
       </div>
       <div>
-        <span className="span2-hot">{article?.title}</span>
-        <p className="hours-hot">
-          {dayjs(article?.publishedAt).format("H")} hours Ago
+        <span className='span2-hot'>{article?.title}</span>
+        <p className='hours-hot'>
+          {dayjs(article?.publishedAt).format('H')} hours Ago
         </p>
-        <p className="cnn-hot">{article?.author}</p>
+        <p className='cnn-hot'>{article?.author}</p>
       </div>
     </div>
   );
